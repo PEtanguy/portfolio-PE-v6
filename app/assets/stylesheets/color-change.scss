@@ -45,7 +45,7 @@ $medium-red: #de0f00;
 
 }
 @keyframes color-change {
-    0% { color: $white; }
+    0% { color: white; }
     33% { color: $bright-red; }
     66% { color: $medium-red; }
     100% { color: white; }

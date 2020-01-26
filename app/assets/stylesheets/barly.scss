@@ -56,3 +56,19 @@ $dark: #1a1a1a;
   justify-content: center;
   align-items: center;
 }
+
+.tech-specs {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-style: solid;
+  border-radius: 3%;
+  border-color: grey;
+  border-width: 0.5px;
+  padding: 3%;
+}
+
+.specs {
+  display: flex;
+
+}

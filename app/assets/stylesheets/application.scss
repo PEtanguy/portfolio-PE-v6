@@ -59,7 +59,7 @@ html { background-color: #000000; }
 //   z-index: -2;
 // }
 body {
-  display: flex;
+  font-family: 'Quicksand', sans-serif;  display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -69,6 +69,14 @@ body {
   // height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+h3 {
+  font-family: 'Work Sans', sans-serif;
+
+}
 }
 .name {
   position: absolute;
@@ -92,8 +100,4 @@ body {
 }
 
 
-.tech-specs {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}
+

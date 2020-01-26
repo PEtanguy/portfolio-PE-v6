@@ -46,6 +46,8 @@ li {
 .skills-container {
   display: flex;
   justify-content: space-around;
+  background-color: #000000;
+  padding: 5%;
 }
 
 // canvas {
@@ -99,6 +101,18 @@ h3 {
   color: white;
   top: 17%;
   left: 39%;
+}
+
+.work {
+  position: absolute;
+  z-index:1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  // flex-direction: column;
+  top: 50%;
+  color: white;
+  width: 50%;
 }
 
 

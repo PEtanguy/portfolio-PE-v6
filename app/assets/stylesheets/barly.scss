@@ -1,17 +1,7 @@
 $dark: #1a1a1a;
 
 
-.work {
-  position: absolute;
-  z-index:1;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  // flex-direction: column;
-  top: 45%;
-  color: white;
-  width: 70%;
-}
+
 
 .barly-title {
   display: flex;
@@ -29,10 +19,24 @@ $dark: #1a1a1a;
   margin: 30px;
   border-radius: 20px;
 }
+.work-Barly-user {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $dark;
+  transition: all .2s ease-in-out;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.user-barly {
+  margin: 2%;
+}
 
 
 .barly-main-wrap {
-  // background-color: $yellow;
+  background-color: #000000;
   color: white;
   padding: 15px;
   // border-radius: 15px;

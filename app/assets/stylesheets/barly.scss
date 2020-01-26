@@ -1,0 +1,58 @@
+$dark: #1a1a1a;
+
+
+.work {
+  position: absolute;
+  z-index:1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  // flex-direction: column;
+  top: 45%;
+  color: white;
+  width: 70%;
+}
+
+.barly-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work-Barly {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $dark;
+  transition: all .2s ease-in-out;
+  padding: 15px;
+  margin: 30px;
+  border-radius: 20px;
+}
+
+
+.barly-main-wrap {
+  // background-color: $yellow;
+  color: white;
+  padding: 15px;
+  // border-radius: 15px;
+  width: 100vw;
+}
+
+.barly-sides {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.work-Barly:hover {
+  transform: scale(1.1);
+  background-color: $dark;
+}
+
+
+.barly-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

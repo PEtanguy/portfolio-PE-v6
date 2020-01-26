@@ -15,7 +15,7 @@
     var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
     if (mobile) {
         document.getElementsByTagName('body')[0].innerHTML = '';
-        const text = `<br><br><br><div style="display: flex; flex-direction: column; text-align:center; justify-content: center;"><h3 style="color: white; font-family: 'Quicksand', sans-serif;"> Go to </h3> <a href="http://www.petanguy.com">www.petanguy.com</a> <h3 style="color: white; font-family: 'Quicksand', sans-serif;"> on a laptop device to get an optimal display.</h3><div>`
+        const text = `<br><br><br><div style="display: flex; flex-direction: column; text-align:center; justify-content: center; padding: 5%;"><h3 style="color: white; font-family: 'Quicksand', sans-serif;"> Go to </h3> <a href="http://www.petanguy.com"><h3>www.petanguy.com</h3></a> <h3 style="color: white; font-family: 'Quicksand', sans-serif;"> on a laptop device to get an optimal display.</h3><div>`
         document.getElementsByTagName('body')[0].innerHTML = text;
 
     } else {
